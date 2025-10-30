@@ -4,12 +4,8 @@
 #define RXD2 33
 #define TXD2 4
 
-//const char* ssid = "ESP32-Access-Point";
-//const char* password = "123456789";
-
-const char* ssid = "ORBI5408";
-const char* password = "78!nte6val@!";
-
+const char* ssid = "ESP32-Access-Point";
+const char* password = "123456789";
 
 //Your IP address or domain name with URL path
 const char* serverNameTemp = "http://10.0.0.29:8080/motorVal";
