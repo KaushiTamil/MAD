@@ -7,12 +7,12 @@
 //const char* ssid = "ESP32-Access-Point";
 //const char* password = "123456789";
 
-const char* ssid = "MyInternet";
-const char* password = "1234567";
+const char* ssid = "ORBI5408";
+const char* password = "78!nte6val@!";
 
 
 //Your IP address or domain name with URL path
-const char* serverNameTemp = "http://10.0.0.24/motorVal";
+const char* serverNameTemp = "http://10.0.0.29:8080/motorVal";
 
 #include <Wire.h>
 
@@ -52,7 +52,7 @@ void loop() {
     //      previousMillis = currentMillis;
   } else {
     Serial.println("WiFi Disconnected");
-  }
+  }        
   //  }
 }
 
